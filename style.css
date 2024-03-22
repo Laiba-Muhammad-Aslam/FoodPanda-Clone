@@ -1,7 +1,18 @@
-.header{
+.cta{
     border: 2px solid red;
     background-color: #FF2B85;
 }
 .bag{
-    font-size: 25px;
+    font-size: 35px;
+}
+.sign-up-btn{
+    font-size: 14px;
+    /* border: none; */
+    background-color: #FF2B85;
+    border: 1px solid white;
+    /* border-radius: 5px; */
+    font-weight: 500;
+}
+.nav-lists li{
+    list-style: none;
 }

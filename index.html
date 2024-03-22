@@ -7,18 +7,60 @@
     <!-- BOOTSTRAP FILE -->
     <link rel="stylesheet" href="bootstap.css">
     <link rel="stylesheet" href="style.css">
+    <!-- REMIX ICON  -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
-    <div class="header container">
-        <div class="row">
+    <div class="container-fluid cta ">
+        <div class="row text-white font-weight-bold p-2">
             <div class="col d-flex align-items-center justify-content-center gap-5"><i class="fa-solid fa-box bag"></i> 
-                <h5>Do you need a business account?</h5>
-                <button>SIGN UP NOW</button>
+                <h5 class="h4">Do you need a business account?</h5>
+                <button class="sign-up-btn text-white p-3 rounded ">SIGN UP NOW</button>
             </div>
             <!-- <div class="col">Do you need a business account?</div> -->
             <!-- <div class="col"><button>SIGN UP NOW</button></div> -->
         </div>
     </div>
+
+    
+    <!-- NAVIGATION BAR  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="/assests/logo.svg" alt=""> foodpanda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login in</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
+
+           
+            <ul class="navbar-nav d-flex align-items-center ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="ri-global-line"></i>EN
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="ri-shopping-bag-line"></i>
+                  </li>
+            </ul>
+          </form>
+        </div>
+      </nav>
+
     <script src="https://kit.fontawesome.com/5984115a2c.js" crossorigin="anonymous"></script>
 </body>
 </html>

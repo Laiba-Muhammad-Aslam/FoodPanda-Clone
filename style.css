@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+}
 .cta{
     border: 2px solid red;
     background-color: #FF2B85;
@@ -15,4 +19,19 @@
 }
 .nav-lists li{
     list-style: none;
+}
+/* FAQ SECTION  */
+.faq p{
+    color: #333333;
+    font-weight: 100;
+    font-size: 16px;
+}
+.faq span {
+    color: #FF2B85;
+    font-size: 16px;
+}
+.faq h2, h3, h4, h5{
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 20px;
 }

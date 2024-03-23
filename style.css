@@ -35,3 +35,24 @@ body{
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+/* BRANCHES SECTION  */
+
+.image-container{
+    position: relative;
+}
+
+.location img{
+    object-fit: contain;
+    border-radius: 20px;
+    /* position: relative; */
+}
+.location p{
+    background-color: aliceblue;
+    color: #000000;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 3px;
+    left: 20px;
+    padding: 10px;
+}

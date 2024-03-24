@@ -56,3 +56,28 @@ body{
     left: 20px;
     padding: 10px;
 }
+.app .row{
+    background-color: #FF2B85;
+    border-radius: 20px;
+}
+.app .app-content{
+    width: 50%;
+}
+.app .app-content img{
+    /* width: 100%; */
+}
+.app .app-img{
+width: 50%;
+margin-top: -80px;
+}
+.app .app-img img{
+    object-fit: contain;
+    width: 100%;
+}
+
+@media only screen and (max-width: 998px){
+    .app .app-img{
+       
+        margin-top: 0;
+        }
+}

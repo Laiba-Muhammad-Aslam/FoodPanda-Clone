@@ -60,6 +60,9 @@ body{
     background-color: #FF2B85;
     border-radius: 20px;
 }
+.app h2{
+    color: #333333;
+}
 .app .app-content{
     width: 50%;
 }
@@ -73,6 +76,10 @@ margin-top: -80px;
 .app .app-img img{
     object-fit: contain;
     width: 100%;
+}
+.qrcode{
+    width: 80px;
+    height: 80px;
 }
 
 @media only screen and (max-width: 998px){

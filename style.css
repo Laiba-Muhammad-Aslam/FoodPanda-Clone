@@ -71,7 +71,7 @@ body{
 }
 .app .app-img{
 width: 50%;
-margin-top: -80px;
+margin-top: -50px;
 }
 .app .app-img img{
     object-fit: contain;
@@ -79,6 +79,23 @@ margin-top: -80px;
 }
 .apple{
     /* color: #ffffff; */
+}
+.buttons-app-section span{
+    font-size: 12px;
+}
+.buttons-app-section .app-button{
+    /* padding: 0; */
+    padding: 0 3px 0px 3px;
+    margin: 2px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.app-icon i{
+  font-size: 25px;
+  margin-right: 5px;
+}
+.app-icon img{
+    margin-right: 5px; 
 }
 .qrcode{
     width: 80px;

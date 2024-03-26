@@ -102,9 +102,52 @@ margin-top: -50px;
     height: 80px;
 }
 
+/* Foodpanda-for-business Section */
+.foodpanda-for-business{
+    margin-bottom: 90px;
+}
+.foodpanda-for-business .row{
+    background-image: url("/assests/home-corporate-pk.webp");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.foodpanda-for-business h4{
+    font-weight: 400;
+}
+.foodpanda-for-business .col{
+    background-color: #ffffff;
+    color: #000000;
+    /* margin-top: 70px; */
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -70px;
+    left: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* margin-bottom: 40px; */
+}
+.foodpanda-for-business button{
+    border: none;
+    background-color: #FF2B85;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 998px){
     .app .app-img{
        
         margin-top: 0;
         }
+}
+@media only screen and (max-width: 768px){
+    .foodpanda-for-business .col{
+        left: 10px;
+        width: 95%;
+        height: max-content;
+    }
 }

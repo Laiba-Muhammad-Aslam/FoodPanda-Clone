@@ -20,6 +20,26 @@ body{
 .nav-lists li{
     list-style: none;
 }
+
+/* HERO SECTION  */
+.hero-section{
+    position: relative;
+    height: 500px;
+}
+.hero-section .row{
+background-image: url("/assests/home.webp");
+/* background-position: right bottom; */
+/* background-size: contain; */
+/* background-repeat: no-repeat; */
+/* float: right; */
+position: absolute;
+right: -35em;
+background-position: right center;
+/* background-position: right ; */
+height: 500px;
+width: 100%;
+
+}
 /* FAQ SECTION  */
 .faq p{
     color: #333333;

@@ -138,6 +138,81 @@ margin-top: -50px;
     border-radius: 10px;
 }
 
+/* RESTAURANTS OR SHOP SECTION */
+
+.restaurant-section{
+    margin-bottom: 90px;
+}
+.restaurant-section .row{
+    background-image: url("/assests/vendor.webp");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.restaurant-section h4{
+    font-weight: 400;
+}
+.restaurant-section .col{
+    background-color: #ffffff;
+    color: #000000;
+    /* margin-top: 70px; */
+    /* height: 250px; */
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -70px;
+    left: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* margin-bottom: 40px; */
+}
+.restaurant-section button{
+    border: none;
+    background-color: #FF2B85;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* FOOTER SECTION  */
+
+.footer-top{
+    border-top: 1px solid #dcd9d9;
+    border-bottom: 1px solid #dcd9d9;
+    /* border-bottom: 1px solid #ffffff; */
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+
+}
+.footer-top p, .footer-mid p{
+    color: #767676;
+    cursor: pointer;
+}
+.footer-top span:hover{
+    color: #FF2B85;
+}
+.footer-mid ul{
+    list-style-type: none;
+    cursor: pointer;
+}
+.footer-mid li{
+    color: #FF2B85;
+    padding: 5px 0px 5px 0px;
+}
+.footer-mid li:hover{
+    color: #a3124f;
+}
+.footer-bottom{
+    border-top: 1px solid #dcd9d9;
+}
+.footer-bottom i{
+    font-size: 25px;
+    color: #FF2B85;
+    border: 1px solid #dcd9d9 ;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
 @media only screen and (max-width: 998px){
     .app .app-img{
        
@@ -149,5 +224,31 @@ margin-top: -50px;
         left: 10px;
         width: 95%;
         height: max-content;
+    }
+    .restaurant-section{
+        /* margin-bottom: 15em; */
+        margin-bottom: 16em;
+    }
+    .restaurant-section .row{
+        /* height: max-content; */
+        /* height: fit-content; */
+        /* height: min-content; */
+        /* height: 500px; */
+    }
+    .restaurant-section .col{
+        left: 10px;
+        width: 95%;
+        height: max-content;
+        /* bottom: -180px; */
+        bottom: -15em;
+    }
+}
+@media only screen and (max-width: 510px){
+    .restaurant-section{
+        margin-bottom: 27em;
+    }
+    .restaurant-section .col{
+        /* bottom: -300px; */
+        bottom: -25em;
     }
 }

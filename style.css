@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body{
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
 }
 .cta{
     border: 2px solid red;
@@ -22,23 +23,28 @@ body{
 }
 
 /* HERO SECTION  */
-.hero-section{
-    position: relative;
+.hero{
+    /* position: relative; */
     height: 500px;
 }
-.hero-section .row{
-background-image: url("/assests/home.webp");
-/* background-position: right bottom; */
-/* background-size: contain; */
-/* background-repeat: no-repeat; */
-/* float: right; */
-position: absolute;
-right: -35em;
-background-position: right center;
-/* background-position: right ; */
-height: 500px;
-width: 100%;
-
+.hero h1{
+    margin: 4em 0 4em 2em;
+    font-weight: 400;
+    
+}
+.hero-img{
+position: relative;
+}
+.hero-img img{
+    position: absolute;
+    right: -40em;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero .col{
+    z-index: 1;
 }
 /* FAQ SECTION  */
 .faq p{
@@ -234,12 +240,23 @@ margin-top: -50px;
     margin-left: 10px;
 }
 @media only screen and (max-width: 998px){
+    /* nav > .profile-icon-medium {
+        display: none;
+      }
+    
+      nav .login-btn {
+        display: inline-flex;
+      }
+     */
     .app .app-img{
        
         margin-top: 0;
         }
 }
 @media only screen and (max-width: 768px){
+    /* nav > .logo > svg {
+        display: inline;
+      } */
     .foodpanda-for-business .col{
         left: 10px;
         width: 95%;

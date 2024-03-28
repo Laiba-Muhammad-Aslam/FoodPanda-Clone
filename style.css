@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #d70f64;
+    --gray: rgba(128, 128, 128, 0.208);
+  }
+
 body{
     font-family: "Open Sans", sans-serif;
     overflow-x: hidden;
@@ -20,6 +26,57 @@ body{
 }
 .nav-lists li{
     list-style: none;
+}
+
+/* NAVBAR  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.4rem;
+}
+
+nav.active {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+}
+
+nav > .logo {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+nav > .logo > svg {
+  display: none;
+  margin-right: 0.3rem;
+}
+
+nav svg {
+  cursor: pointer;
+}
+
+nav .login-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid var(--gray);
+  border-left: 1px solid var(--gray);
+  padding: 1.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.login-btn span {
+  margin-left: 0.5rem;
+  font-weight: 600;
 }
 
 /* HERO SECTION  */

@@ -18,10 +18,8 @@ body{
 }
 .sign-up-btn{
     font-size: 14px;
-    /* border: none; */
     background-color: #FF2B85;
     border: 1px solid white;
-    /* border-radius: 5px; */
     font-weight: 500;
 }
 .nav-lists li{
@@ -81,7 +79,6 @@ nav .login-btn {
 
 /* HERO SECTION  */
 .hero{
-    /* position: relative; */
     height: 500px;
 }
 .hero h1{
@@ -128,7 +125,6 @@ position: relative;
 .location img{
     object-fit: contain;
     border-radius: 20px;
-    /* position: relative; */
 }
 .location p{
     background-color: aliceblue;
@@ -149,9 +145,6 @@ position: relative;
 .app .app-content{
     width: 50%;
 }
-.app .app-content img{
-    /* width: 100%; */
-}
 .app .app-img{
 width: 50%;
 margin-top: -50px;
@@ -160,14 +153,10 @@ margin-top: -50px;
     object-fit: contain;
     width: 100%;
 }
-.apple{
-    /* color: #ffffff; */
-}
 .buttons-app-section span{
     font-size: 12px;
 }
 .buttons-app-section .app-button{
-    /* padding: 0; */
     padding: 0 3px 0px 3px;
     margin: 2px;
     border: 1px solid #ffffff;
@@ -203,7 +192,6 @@ margin-top: -50px;
 .foodpanda-for-business .col{
     background-color: #ffffff;
     color: #000000;
-    /* margin-top: 70px; */
     height: 250px;
     padding: 20px;
     border-radius: 10px;
@@ -211,7 +199,6 @@ margin-top: -50px;
     bottom: -70px;
     left: 40px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    /* margin-bottom: 40px; */
 }
 .foodpanda-for-business button{
     border: none;
@@ -240,15 +227,12 @@ margin-top: -50px;
 .restaurant-section .col{
     background-color: #ffffff;
     color: #000000;
-    /* margin-top: 70px; */
-    /* height: 250px; */
     padding: 20px;
     border-radius: 10px;
     position: absolute;
     bottom: -70px;
     left: 40px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    /* margin-bottom: 40px; */
 }
 .restaurant-section button{
     border: none;
@@ -263,9 +247,6 @@ margin-top: -50px;
 .footer-top{
     border-top: 1px solid #dcd9d9;
     border-bottom: 1px solid #dcd9d9;
-    /* border-bottom: 1px solid #ffffff; */
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-
 }
 .footer-top p, .footer-mid p{
     color: #767676;

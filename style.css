@@ -324,6 +324,10 @@ h5 {
     /* bottom: -180px; */
     bottom: -15em;
   }
+  .hero-img img {
+    left: 0;
+    /* height: max-content; */
+  }
 }
 @media only screen and (max-width: 510px) {
   .restaurant-section {
@@ -332,5 +336,9 @@ h5 {
   .restaurant-section .col {
     /* bottom: -300px; */
     bottom: -25em;
+  }
+  .hero-img img {
+    left: 0;
+    height: max-content;
   }
 }

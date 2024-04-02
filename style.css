@@ -9,24 +9,14 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
-.cta {
-  border: 2px solid red;
-  background-color: #ff2b85;
-}
-.bag {
-  font-size: 35px;
-}
-.sign-up-btn {
-  font-size: 14px;
-  background-color: #ff2b85;
-  border: 1px solid white;
-  font-weight: 500;
-}
-.nav-lists li {
-  list-style: none;
-}
-
 /* NAVBAR  */
+
+header{
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
 
 nav {
   display: flex;
@@ -332,48 +322,30 @@ h5 {
   margin-left: 10px;
 }
 
+/* MEDIA QUERIES  */
+
 @media only screen and (max-width: 998px) {
-  /* nav > .profile-icon-medium {
-        display: none;
-      }
-    
-      nav .login-btn {
-        display: inline-flex;
-      }
-     */
   .app .app-img {
     margin-top: 0;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* nav > .logo > svg {
-        display: inline;
-      } */
   .foodpanda-for-business .col {
     left: 10px;
     width: 95%;
     height: max-content;
   }
   .restaurant-section {
-    /* margin-bottom: 15em; */
     margin-bottom: 16em;
-  }
-  .restaurant-section .row {
-    /* height: max-content; */
-    /* height: fit-content; */
-    /* height: min-content; */
-    /* height: 500px; */
   }
   .restaurant-section .col {
     left: 10px;
     width: 95%;
     height: max-content;
-    /* bottom: -180px; */
     bottom: -15em;
   }
   .hero-img img {
     left: 40%;
-    /* height: max-content; */
   }
   .hero h1 {
     margin: 4em 0 1em 2em;
@@ -394,8 +366,13 @@ h5 {
     width: 100%;
   }
   .cities{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,auto);
     gap: 1em;
+  }
+  .city{
+    height: 200px;
+    overflow: hidden;
+  
   }
 }
 @media only screen and (max-width: 510px) {
@@ -423,7 +400,7 @@ h5 {
     width: 100%;
   }
   .cities{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
 }

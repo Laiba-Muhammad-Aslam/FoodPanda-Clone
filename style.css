@@ -154,23 +154,40 @@ h5 {
 
 /* BRANCHES SECTION  */
 
-.image-container {
+.cities{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 2em;
+  cursor: pointer;
+}
+.city{
   position: relative;
+  border-radius: 5px;
+  height: 200px;
+
+}
+.city-image  img{
+  position: relative;
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+  transition: all .1s ease-in;
+}
+.city-name p{
+  bottom: 0;
+  left: 1em;
+  background-color: #ffffff;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  position: absolute;
+  border-radius: 5px;
+  color: #333333;
+}
+.city-image:hover{
+  transform: scale(1.1);
 }
 
-.location img {
-  object-fit: contain;
-  border-radius: 20px;
-}
-.location p {
-  background-color: aliceblue;
-  color: #000000;
-  border-radius: 15px;
-  position: absolute;
-  bottom: 3px;
-  left: 20px;
-  padding: 10px;
-}
+/* APP SECTION  */
 .app .row {
   background-color: #ff2b85;
   border-radius: 20px;
@@ -314,6 +331,7 @@ h5 {
   padding: 5px;
   margin-left: 10px;
 }
+
 @media only screen and (max-width: 998px) {
   /* nav > .profile-icon-medium {
         display: none;
@@ -375,6 +393,10 @@ h5 {
   .hero-input-container input {
     width: 100%;
   }
+  .cities{
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+  }
 }
 @media only screen and (max-width: 510px) {
   .restaurant-section {
@@ -399,5 +421,9 @@ h5 {
   .hero-input-container,
   .hero-input-container input {
     width: 100%;
+  }
+  .cities{
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
   }
 }

@@ -1,1 +1,1 @@
-https://foodpanda-clone-project.netlify.app/
+https://myfoodpandaaclone.netlify.app/
